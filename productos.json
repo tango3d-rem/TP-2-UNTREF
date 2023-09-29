@@ -1,0 +1,50 @@
+[
+    {
+        "código": "Creality Ender 3",
+        "descripción": "",
+        "imagen": "img/producto1.jpg",
+        "precio": 117600.00,
+        "puntuación": "*****",
+        "detalle": "Descripcion: Acerca de Ender-3 Montaje fácil y rápido: Viene con varias partes ensambladas, solo necesitas unas 2 horas para montar bien 20 tuercas, Tecnología avanzada del extrusor: El extrusor mejorado reduce en gran medida el riesgo de conexión y la mala extrusión; la V-Shape con ruedas POM hace que se mueva sin ningún tipo, sin problemas, y duradera."
+    },
+    {
+        "código": "Creality Ender 3 S1",
+        "descripción": "",
+        "imagen": "img/producto2.jpg",
+        "precio": 197715.00,
+        "puntuación": "****",
+        "detalle": "Descripción: Impresora de nivelacion automatica, el Sprite es mas ligero y presenta menos inercia y un posicionamiento mas preciso, admite filamentos de inpresion PLA/TPU/PETG/ABS. Nivelacion automatica con Creality CR Touch"
+    },
+    {
+        "código": "Creality Ender 3 S1 PLUS",
+        "descripción": "",
+        "imagen": "img/producto3.jpg",
+        "precio": 299145.00,
+        "puntuación": "****",
+        "detalle": "Descripción: Crealiyu Ender-3 S1 PLUS, con un volumen de actualizacion en tamaño de 300x300x300 mm, se actualiza con la extrusora directa de doble engranaje de metal Sprite y pantalla táctil de 4.3 pulgadas. Filamento compatible: PLA/ABS/TPU/PETG Idioma admitido: chino, inglés, español, alemán, francés, portugués, italiano, ruso y turco Formato de archivo 3D: STL/OBJ/AMF Conectividad: USB tipo C/ tarjeta SD."
+    },
+    {
+        "código": "Creality  K1",
+        "descripción": "",
+        "imagen": "img/producto4.jpg",
+        "precio": 366765.00,
+        "puntuación": "****",
+        "detalle": "Descripción ¡Rápido y más rápido! ¡Máximo 600 mm/s!, Con una aceleración de 20 000 mm/s², la Creality K1 aumenta hasta 600 mm/s en solo 0,03 segundos, lo que la hace hasta 12 veces más rápida que otras impresoras FDM del mercado, Combina el ágil Core XY con un cabezal de impresión ligero de 190 g para reducir la inercia del movimiento. Ágil y rápido. Se calienta rápidamente y es compatible con una variedad de materiales de filamento. La K1 cuenta con un extremo caliente de flujo máximo de 32 mm³/s, equipado con un calentador cerámico para un calentamiento rápido y una extrusora directa de doble engranaje que proporciona una fuerza de extrusión de 50 N. Boquillas de aleación de titanio y aleación de cobre: sobresale a temperaturas de hasta 300 ℃ Admite una amplia variedad de materiales de filamentos y funciona muy bien."
+    },
+    {
+        "código": "Creality CR-30",
+        "descripción": "",
+        "imagen": "img/producto5.jpg",
+        "precio": 565215.00,
+        "puntuación": "***",
+        "detalle": "Descripción: Ya está aquí la impresora 3D de Creality con una cinta infinita, o casi. La campaña de Kickstarter está en marcha. Descubre todo lo que sabemos hasta ahora acerca de la 3DPrintMill (también conocida como CR-30). Por si su apariencia no lo deja ya suficientemente claro, la 3DPrintMill es totalmente diferente a cualquier modelo que Creality haya lanzado hasta la fecha. Esta impresora, con un espacio de construcción infinito en el eje Z, no solo se distingue por su cama de impresión en forma de cinta transportadora sino también por el pórtico angular por el que se desplaza el cabezal de impresión. Se trata de un diseño muy específico que introduce un par de rasgos muy deseables en una impresora 3D: la impresión continua y la capacidad de imprimir voladizos sin soportes."
+    },
+    {
+        "código": "Creality Ender 5 PLUS",
+        "descripción": "",
+        "imagen": "img/producto6.jpg",
+        "precio": 374115.00,
+        "puntuación": "*****",
+        "detalle": "Descripción:Impresora 3D Cube Frame: Estructura cúbica muy sólida. Diseño de caja con pórtico elevado. La impresora 3D Creality Ender-5 Plus es la versión más grande de la impresora 3D Creality Ender 5 Series, con el mismo marco de cubo sólido de diseño cúbico, Formato de impresión ultra grande: 350X350X400mm. Cumpla con más requisitos de impresión. Tu idea no debe limitarse. Obtenga mejores resultados de impresión y un modelo de impresión más grande a la vez, Nivelación automática de la cama preinstalada: con BL Touch configurado. ¡Simplemente conéctelos y comience a imprimir! Puede medir con precisión si la superficie de la cama está inclinada, ofrece compensación automática para el eje Z para las irregularidades de la placa de la plataforma, fácil de resolver la falla de impresión causada por la irregularidad de la plataforma, y proporcionan un funcionamiento confiable con todas las superficies de construcción, Doble eje Z: Impulsión estable del tornillo de avance del eje Z de manera suave y estable. El movimiento de la placa de construcción será más estable."
+    }
+]
