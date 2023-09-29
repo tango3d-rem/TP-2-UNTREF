@@ -1,34 +1,31 @@
 document.addEventListener('DOMContentLoaded', function () {
     const listaProductos = document.getElementById('lista-productos');
 
-    // Agregar un retraso de 2 segundos (2000 milisegundos) para simular una carga más lenta.
-    setTimeout(() => {
-        // Cargar productos desde el archivo JSON utilizando fetch.
-        fetch('productos.json')
-            .then(response => response.json())
-            .then(data => {
-                listaProductos.innerHTML = ''; // Limpiar contenido anterior.
+    // Cargar productos desde el archivo JSON utilizando fetch.
+    fetch('productos.json')
+        .then(response => response.json())
+        .then(data => {
+            listaProductos.innerHTML = ''; // Limpiar contenido anterior.
 
-                data.forEach(producto => {
-                    const productoDiv = document.createElement('div');
-                    productoDiv.classList.add('producto');
-                    productoDiv.innerHTML = `
-                        <h2>${producto.código}</h2>
-                        <p>${producto.descripción}</p>
-                        <img src="${producto.imagen}" alt="${producto.código}" style="max-width: 100px; height: auto;">
-                        <button class="ver-detalle" data-producto='${JSON.stringify(producto)}'>Ver Detalles</button>
-                    `;
+            data.forEach(producto => {
+                const productoDiv = document.createElement('div');
+                productoDiv.classList.add('producto');
+                productoDiv.innerHTML = `
+                    <h2>${producto.código}</h2>
+                    <p>${producto.descripción}</p>
+                    <img src="${producto.imagen}" alt="${producto.código}" style="max-width: 100px; height: auto;">
+                    <button class="ver-detalle" data-producto='${JSON.stringify(producto)}'>Ver Detalles</button>
+                `;
 
-                    const botonVerDetalle = productoDiv.querySelector('.ver-detalle');
-                    botonVerDetalle.addEventListener('click', () => {
-                        mostrarDetalle(producto);
-                    });
-
-                    listaProductos.appendChild(productoDiv);
+                const botonVerDetalle = productoDiv.querySelector('.ver-detalle');
+                botonVerDetalle.addEventListener('click', () => {
+                    mostrarDetalle(producto);
                 });
-            })
-            .catch(error => console.error('Error al cargar productos:', error));
-    }, 100); // 2000 milisegundos (2 segundos) de retraso.
+
+                listaProductos.appendChild(productoDiv);
+            });
+        })
+        .catch(error => console.error('Error al cargar productos:', error));
 });
 
 function mostrarDetalle(producto) {
