@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     productoDiv.classList.add('producto');
                     productoDiv.innerHTML = `
                         <h2>${producto.código}</h2>
-                        <p>${producto.descripción}</p>
                         <img src="${producto.imagen}" alt="${producto.código}" style="max-width: 100px; height: auto;">
                         <button class="ver-detalle" data-producto='${JSON.stringify(producto)}'>Ver Detalles</button>
                     `;
@@ -49,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // Mostrar los detalles del producto en el contenedor.
         detalleContainer.innerHTML = `
             <h2>${productoSeleccionado.código}</h2>
-            <p>${productoSeleccionado.descripción}</p>
             <p>${productoSeleccionado.detalle}</p>
             <p>Precio: ${productoSeleccionado.precio.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' })}</p>
             <p>Puntuación: ${productoSeleccionado.puntuación}</p>
