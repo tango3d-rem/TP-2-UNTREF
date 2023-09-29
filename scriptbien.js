@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // Mostrar los detalles del producto en el contenedor.
         detalleContainer.innerHTML = `
             <h2>${productoSeleccionado.código}</h2>
-            <p>${productoSeleccionado.descripción}</p>
             <p>${productoSeleccionado.detalle}</p>
             <p>Precio: ${productoSeleccionado.precio.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' })}</p>
             <p>Puntuación: ${productoSeleccionado.puntuación}</p>

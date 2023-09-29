@@ -1,7 +1,6 @@
 [
     {
         "código": "Creality Ender 3",
-        "descripción": "",
         "imagen": "img/producto1.jpg",
         "precio": 117600.00,
         "puntuación": "*****",
@@ -9,7 +8,6 @@
     },
     {
         "código": "Creality Ender 3 S1",
-        "descripción": "",
         "imagen": "img/producto2.jpg",
         "precio": 197715.00,
         "puntuación": "****",
@@ -17,7 +15,6 @@
     },
     {
         "código": "Creality Ender 3 S1 PLUS",
-        "descripción": "",
         "imagen": "img/producto3.jpg",
         "precio": 299145.00,
         "puntuación": "****",
@@ -25,7 +22,6 @@
     },
     {
         "código": "Creality  K1",
-        "descripción": "",
         "imagen": "img/producto4.jpg",
         "precio": 366765.00,
         "puntuación": "****",
@@ -33,7 +29,6 @@
     },
     {
         "código": "Creality CR-30",
-        "descripción": "",
         "imagen": "img/producto5.jpg",
         "precio": 565215.00,
         "puntuación": "***",
@@ -41,7 +36,6 @@
     },
     {
         "código": "Creality Ender 5 PLUS",
-        "descripción": "",
         "imagen": "img/producto6.jpg",
         "precio": 374115.00,
         "puntuación": "*****",
