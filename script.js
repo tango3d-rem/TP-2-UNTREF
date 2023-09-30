@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const listaProductos = document.getElementById('lista-productos');
 
-    // Agregar un retraso de 2 segundos (2000 milisegundos) para simular una carga más lenta.
+    // Agregar un retraso de (100 milisegundos) para simular una carga más lenta.
     setTimeout(() => {
         // Cargar productos desde el archivo JSON utilizando fetch.
         fetch('productos.json')
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             })
             .catch(error => console.error('Error al cargar productos:', error));
-    }, 100); // 2000 milisegundos (2 segundos) de retraso.
+    }, 100); // 100 milisegundos de retraso.
 });
 
 function mostrarDetalle(producto) {
