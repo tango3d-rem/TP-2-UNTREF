@@ -30,6 +30,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 100); // 100 milisegundos de retraso.
 });
 
+function convertirAEstrellas(puntuacion) {
+    // Convierte la puntuación de asteriscos en estrellas con clases CSS
+    const estrellasLlenas = puntuacion.length;
+    const estrellasVacias = 5 - estrellasLlenas;
+
+    const estrellasHTML = '<span class="estrella-llena">★</span>'.repeat(estrellasLlenas) +
+        '<span class="estrella-vacia">☆</span>'.repeat(estrellasVacias);
+
+    return `<p class="puntuacion-estrellas">${estrellasHTML}</p>`;
+}
+
 function mostrarDetalle(producto) {
     localStorage.setItem('productoSeleccionado', JSON.stringify(producto));
     window.location.href = 'detalle.html';
@@ -50,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <h2>${productoSeleccionado.código}</h2>
             <p>${productoSeleccionado.detalle}</p>
             <p>Precio: ${productoSeleccionado.precio.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' })}</p>
-            <p>Puntuación: ${productoSeleccionado.puntuación}</p>
+            <p>${convertirAEstrellas(productoSeleccionado.puntuación)}</p>
             <img src="${productoSeleccionado.imagen}" alt="${productoSeleccionado.código}" style="max-width: 400px; height: auto;">
         `;
 
