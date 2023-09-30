@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 productoDiv.classList.add('producto');
                 productoDiv.innerHTML = `
                     <h2>${producto.código}</h2>
-                    <p>${producto.descripción}</p>
                     <img src="${producto.imagen}" alt="${producto.código}" style="max-width: 100px; height: auto;">
                     <button class="ver-detalle" data-producto='${JSON.stringify(producto)}'>Ver Detalles</button>
                 `;
