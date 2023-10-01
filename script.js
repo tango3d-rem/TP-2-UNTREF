@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let productos;
 
     // Función para convertir la puntuación en estrellas
-    function convertirAEstrellas(puntuacion) {
+    function convertirAEstrellas(puntuación) {
         const estrellasLlenas = puntuación.length;
         const estrellasVacias = 5 - estrellasLlenas;
 
