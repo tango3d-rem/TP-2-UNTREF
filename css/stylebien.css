@@ -1,8 +1,13 @@
 /* Estilo general para el cuerpo de la página */
-html, body {
+html *{
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -76,16 +81,16 @@ main {
 
 /* Estilo para las estrellas llenas */
 .estrella-llena {
-    color: gold;
-    font-size: 45px;
-    margin-right: 4px;
+    color: gold; /* Color de estrellas llenas (doradas) */
+    font-size: 45px; /* Tamaño de fuente más grande (ajusta según tus preferencias) */
+    margin-right: 4px; /* Espacio entre estrellas llenas (ajusta según tus preferencias) */
 }
 
 /* Estilo para las estrellas vacías */
 .estrella-vacia {
-    color: lightgray;
-    font-size: 45px;
-    margin-right: 4px;
+    color: lightgray; /* Color de estrellas vacías (grises) */
+    font-size: 45px; /* Tamaño de fuente más grande (ajusta según tus preferencias) */
+    margin-right: 4px; /* Espacio entre estrellas vacías (ajusta según tus preferencias) */
 }
 
 /* Estilo para el botón "Ver Detalles" */
@@ -135,21 +140,19 @@ main {
 }
 
 /** Footer **/
+
 .footer-section {
     max-width: 1250px;
     margin: 0 auto;
     padding: 1rem 0;
     background-color: #4e5f70;
     color: #ffffff;
-    border-radius: 10px;
+    border-radius: 10px
 }
 
-.wrap-social-logos ul,
-.wrap-menu-footer-section ul {
+.wrap-social-logos ul, .wrap-menu-footer-section ul {
     display: flex;
     justify-content: center;
-    list-style: none;
-    padding: 0;
 }
 
 .social-logo {
