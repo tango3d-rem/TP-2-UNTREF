@@ -177,4 +177,24 @@ main {
     .producto {
         width: 100%;
     }
+
+    /* Estilo para el footer en pantallas más pequeñas */
+    .footer-section {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .wrap-social-logos ul,
+    .wrap-menu-footer-section ul {
+        flex-direction: column;
+    }
+
+    .wrap-menu-footer-section ul li {
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .social-logo {
+        padding: 0.5rem;
+    }
 }

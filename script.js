@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 productoDiv.innerHTML = `
                     <h2>${producto.código}</h2>
                     <img src="${producto.imagen}" alt="${producto.código}" style="max-width: 100px; height: auto;">
-                    <p>${convertirAEstrellas(producto.puntuación)}</p>
                     <button class="ver-detalle" data-producto='${JSON.stringify(producto)}'>Ver Detalles</button>
                 `;
 
